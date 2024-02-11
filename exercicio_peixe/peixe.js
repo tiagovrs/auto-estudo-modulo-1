@@ -56,9 +56,9 @@ function create() {
 //Função pros objetos andarem junto com o mouse
 function update() {
 
-    peixe_rosa.x = this.input.x - 90;
+    peixe_rosa.x = this.input.x;
     peixe_rosa.y = this.input.y;
 
-    peixe_azul.x = this.input.x + 70;
+    peixe_azul.x = this.input.x + 130;
     peixe_azul.y = this.input.y;
 }
